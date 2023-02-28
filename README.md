@@ -1,5 +1,7 @@
 # yyfweb
 
+页面展示请访问github pages 现在没有链接
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
