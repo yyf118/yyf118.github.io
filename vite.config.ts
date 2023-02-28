@@ -25,10 +25,25 @@ export default defineConfig({
       modules: [
         autoComplete("vue"),
         {
+          name: "vue-demi",
+          var: "VueDemi",
+          path: "lib/index.iife.min.js",
+        },
+        {
+          name: "vue",
+          var: "Vue",
+          path: "https://unpkg.com/vue@3.2.47/dist/vue.global.js",
+        },
+        {
           name: "element-plus",
           var: "ElementPlus",
           path: "https://unpkg.com/element-plus",
           css: "https://unpkg.com/element-plus/dist/index.css",
+        },
+        {
+          name: "vue-router",
+          var: "VueRouter",
+          path: "https://cdn.jsdelivr.net/npm/vue-router@4/dist/vue-router.global.min.js",
         },
       ],
     }),
