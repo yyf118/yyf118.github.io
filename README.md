@@ -44,3 +44,5 @@ npm run build
 ```sh
 npm run test:unit
 ```
+
+### 受不鸟 太慢了网速
